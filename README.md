@@ -17,7 +17,7 @@ ANN2 - NN with 2 Conv layers
 ANN3 - training model + testing on pictures that are not from database 
 
 
-needed : Python 3.6 
+needed : Python 3.6 (pip install jupyter notebook)
 
          pip install tensorflow, keras, pickle, numpy, os, cv2, matplotlib.pyplot
 
