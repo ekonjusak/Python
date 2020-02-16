@@ -1,6 +1,6 @@
 # Python
 
-++ ANN is folder with Artificial Neural Network that contains:
+1) ANN is folder with Artificial Neural Network that contains:
 
 
 ANN1 - simple code that find our local database (nedded vehicles database: https://www.gti.ssr.upm.es/data/Vehicle_database.html ) and shows us how this pictures look in numbers. 
@@ -22,7 +22,7 @@ needed : Python 3.6
          pip install tensorflow, keras, pickle, numpy, os, cv2, matplotlib.pyplot
 
 
-++ temperature 
+2) temperature 
 
 emit_log.py - sending logs to rabbit mq ( https://www.rabbitmq.com/) 
 recive_logs.py - create query on database and save time and temperature (that emit_log sends)
@@ -31,6 +31,6 @@ needed:  SQL database, Python 2.7, rabbit mq, tomcat
           pip install pika, sqlite3, sys, time, json, request, tomcatmanager 
 
 
-++ image processing basics 
+3) image processing basics 
 
 some playing with images, nothing serious 
