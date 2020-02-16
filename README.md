@@ -22,7 +22,7 @@ needed : Python 3.6 (pip install jupyter notebook)
          pip install tensorflow, keras, pickle, numpy, os, cv2, matplotlib.pyplot
 
 
-2) temperature 
+2) Temperature 
 
 emit_log.py - sending logs to rabbit mq ( https://www.rabbitmq.com/) 
 recive_logs.py - create query on database and save time and temperature (that emit_log sends)
@@ -31,6 +31,6 @@ needed:  SQL database, Python 2.7, rabbit mq, tomcat
           pip install pika, sqlite3, sys, time, json, request, tomcatmanager 
 
 
-3) image processing basics 
+3) Image processing basics 
 
-some playing with images, nothing serious 
+playing with images, nothing serious 
